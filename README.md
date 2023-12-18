@@ -4,7 +4,7 @@ Evepraisal helper functions intended for use in Google sheets
 ## Install
 
 1. Open a google sheets document
-2. Go to Tools > Script Editor...
+2. Go to Extensions > Apps Script
 3. Replace the contents of the file with the contents of [Evepraisal.gs](https://raw.githubusercontent.com/WilliamWeist/bigab-evepraisal-google-sheets/master/Evepriasal.gs)
 4. Save the file (enter in a project name, this doesn't really matter)
 5. Try some of the examples below
@@ -13,7 +13,7 @@ Evepraisal helper functions intended for use in Google sheets
 ## Examples
 ```
 // Get the total buy price for an existing appraisal
-=EVEPRAISAL_TOTAL("gp5av", "buy")
+=EVEPRAISAL_TOTAL("2uk", "buy")
 
 // Get the cost of a single unit of tritanium in jita
 =EVEPRAISAL_ITEM(34, "jita", "sell", "volume")
